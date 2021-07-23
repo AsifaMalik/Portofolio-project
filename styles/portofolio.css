@@ -1,10 +1,62 @@
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  color: black;
+:root {
+  --branding-color: white;
+  --secondary-color: #212121;
+  --heading-font-family: "Roboto", sans-serif;
+  --default-font-family: "Montserrat", sans-serif;
+  --button-text-color: #272142;
 }
-p {
-font-family: 'Open Sans', sans-serif;
+
+body {
+  background: #1c1c1c;
+  font-family: var(--default-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  color: white;
   font-weight: normal;
-  color: black;
+}
+
+h1 {
+  font-size: 72px;
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  font-weight: bold;
+  color: white;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 2;
+  color: white;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  color: var(--button-text-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
+  border-radius: 50px;
+  font-weight: bold;
 }
