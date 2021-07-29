@@ -63,6 +63,12 @@ p {
   justify-content: space-evenly;
   font-size: 30px;
 }
+.fa-react{
+   display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  margin: none;
+}
 .btn-branding-outline{
     display: block;
 
