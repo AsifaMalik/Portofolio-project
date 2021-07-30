@@ -1,7 +1,7 @@
 :root {
   --branding-color: white;
   --secondary-color: #212121;
-  --signature-color: #DD4E30;
+  --signature-color: #b36200;
   --heading-font-family: "Roboto", sans-serif;
   --default-font-family: "Montserrat", sans-serif;
   --button-text-color: #272142;
@@ -41,7 +41,6 @@ p {
 
 
 
-
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -60,9 +59,7 @@ p {
   line-height: 2;
 }
 
-.my-description{
-  color: var(--signature-color);
-}
+
 .icons {
   display: flex;
   justify-content: space-evenly;
@@ -79,8 +76,8 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
-  color: var(--button-text-color);
+  color: var(--branding-color);
+    border: 1px solid var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
@@ -89,9 +86,8 @@ p {
 }
 
 .btn-branding:hover{
-  background:white;
-  border: 3px solid var(--signature-color);
-  color:black;
+   border: 3px solid var(--signature-color);
+  color: white;
 }
 
 .btn-branding-outline {
@@ -104,9 +100,8 @@ p {
   font-weight: bold;
 }
 .btn-branding-outline:hover{
-  background:white;
   border: 3px solid var(--signature-color);
-  color:#1c1c1c;
+  color: white;
 }
 
 .icons i:hover{
