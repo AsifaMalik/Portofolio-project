@@ -1,14 +1,15 @@
 :root {
   --branding-color: white;
   --secondary-color: #212121;
+  --signature-color: #DD4E30;
   --heading-font-family: "Roboto", sans-serif;
   --default-font-family: "Montserrat", sans-serif;
   --button-text-color: #272142;
 }
 
 body {
-    background:#1c1c1c
-;}
+  background: #1c1c1c;
+}
 h1,
 h2,
 h3,
@@ -24,10 +25,10 @@ h1 {
   font-size: 72px;
   color: white;
   font-weight: bold;
-  line-height:1.5;
+  line-height: 1.5;
 }
-h2{
-    font-size: 64px;
+h2 {
+  font-size: 64px;
 }
 
 p {
@@ -36,6 +37,9 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
+
+
 
 
 .hero {
@@ -54,24 +58,24 @@ p {
   font-weight: normal;
   font-size: 18px;
   line-height: 2;
-  color: white;
 }
 
-.icons{
-   
+.my-description{
+  color: var(--signature-color);
+}
+.icons {
   display: flex;
   justify-content: space-evenly;
   font-size: 30px;
 }
-.fa-react{
-   display: flex;
+.fa-react {
+  display: flex;
   justify-content: space-evenly;
   font-size: 30px;
   margin: none;
 }
-.btn-branding-outline{
-    display: block;
-
+.btn-branding-outline {
+  display: block;
 }
 
 .btn-branding {
@@ -83,47 +87,59 @@ p {
   border-radius: 50px;
   font-weight: bold;
 }
-.btn-branding-outline{
-    color: var(--branding-color);
-    border: 1px solid var(--branding-color);
-     font-size: 18px;
+
+.btn-branding:hover{
+  background:white;
+  border: 3px solid var(--signature-color);
+  color:black;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
   border-radius: 50px;
   font-weight: bold;
-  
+}
+.btn-branding-outline:hover{
+  background:white;
+  border: 3px solid var(--signature-color);
+  color:#1c1c1c;
 }
 
-.project-description{
-    padding:0 30px;
-
+.icons i:hover{
+  background:var(--button-text-color);
+color: var(--signature-color);
+}
+.project-description {
+  padding: 0 30px;
 }
 
-@media (max-width: 900px){
-    h1{
-        font-size: 44px;
-        line-height: 1.5;
-    }
-    h2{
-        font-size: 44px;
-    }
-    .hero {
-  
-  padding: 80px 20px;
-}
-    .project-description{
-        padding:0;
-        text-align: center;
-    }
-    .my-introduction{
-      padding:0;
-        text-align: center;  
-    }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .my-introduction {
+    padding: 0;
+    text-align: center;
+  }
 }
 
-
-footer{
-    background:var(--secondary-color);
+footer {
+  background: var(--secondary-color);
   text-align: center;
   margin-top: 75px;
   margin-bottom: 50px;
