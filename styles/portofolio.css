@@ -143,6 +143,10 @@ color: var(--signature-color);
     padding: 0;
     text-align: center;
   }
+  .about-section{
+  text-align: center;
+    padding:0;
+    }
 }
 
 footer {
