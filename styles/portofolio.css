@@ -38,10 +38,6 @@ p {
   line-height: 30px;
 }
 
-
-
-
-
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -118,8 +114,6 @@ background-image: linear-gradient(315deg, #f3f4f7 0%, #caccd1 74%);}
 .project-link:hover{
   color:#b36200;
 }
-
-
 
 .icons {
   display: flex;
