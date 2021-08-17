@@ -76,6 +76,9 @@ p {
          opacity: 50%;
 
 }
+.contact-link:hover {
+color:var(--signature-color);
+}
 
 h1.highlight {
   color: var(--signature-color);
