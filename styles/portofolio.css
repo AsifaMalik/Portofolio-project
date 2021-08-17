@@ -70,6 +70,13 @@ p {
   font-size: 10px;
 }
 
+.contact-link {
+  color: white;
+      text-decoration: none;
+         opacity: 50%;
+
+}
+
 h1.highlight {
   color: var(--signature-color);
   font-size: 56px;
